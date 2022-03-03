@@ -1,4 +1,4 @@
-package net.engineeringcode.codingtest.programmers.HighScoreKit.Stack.FunctionDevelopment;
+package net.engineeringcode.codingtest.programmers.HighScoreKit.StackQueue.FunctionDevelopment;
 import java.util.*;
 
 public class Solution {
