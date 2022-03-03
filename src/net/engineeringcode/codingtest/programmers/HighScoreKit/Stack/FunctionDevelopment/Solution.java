@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Solution {
 	/*
-	 * 프로그래머스 코딩테스트 연습 > 스택/큐 > 기능개발
+	 * 프로그래머스 > 코딩테스트 연습 > 스택/큐 > 기능개발
 	 * https://programmers.co.kr/learn/courses/30/lessons/42586
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 */
