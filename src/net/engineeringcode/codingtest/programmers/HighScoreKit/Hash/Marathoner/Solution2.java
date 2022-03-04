@@ -7,7 +7,7 @@ public class Solution2 {
 	 * https://programmers.co.kr/learn/courses/30/lessons/42576
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 * 해시맵을 활용하여 정확성 테스트와 효율성 테스트를 통과하였다.
-	 * 해시맵은 마라톤 선수의 이름을 키로 인원수를 값으로 저장하였다.
+	 * 해시맵은 마라톤 선수의 이름을 키로 하였고 인원수를 값으로 저장하였다.
 	 */
 	
     public String solution(String[] participant, String[] completion) {
