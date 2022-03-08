@@ -3,7 +3,7 @@ package net.engineeringcode.codingtest.programmers.HighScoreKit.Hash.Contact;
 public class Solution {
 	/*
 	 * 프로그래머스 > 코딩테스트 연습 > 해시 > 전화번호
-	 * https://programmers.co.kr/learn/courses/30/lessons/42576
+	 * https://programmers.co.kr/learn/courses/30/lessons/42577
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 * 문제의 지문을 이해하는 것에 시간이 오래 걸렸다. 번호들 중에 하나라도 다른 사람의 번호에서 시작하는 같은 경우가 있으면 false라는 말이다.
 	 * 단순하게 배열을 하나씩 순회하면서 모든 경우를 계산하면 정확성 테스트는 통과하지만 효율성 테스트를 통과하지 못 한다.

@@ -4,7 +4,7 @@ import java.util.*;
 public class Solution3 {
 	/*
 	 * 프로그래머스 > 코딩테스트 연습 > 해시 > 전화번호
-	 * https://programmers.co.kr/learn/courses/30/lessons/42576
+	 * https://programmers.co.kr/learn/courses/30/lessons/42577
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 * 문제의 지문을 이해하는 것에 시간이 오래 걸렸다. 번호들 중에 하나라도 다른 사람의 번호에서 시작하는 같은 경우가 있으면 false라는 말이다.
 	 * Solution2에서 발생하는 해시맵 비대화를 해결하기 위한 방법이다.
