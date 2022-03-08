@@ -7,7 +7,7 @@ public class Solution4 {
 	 * https://programmers.co.kr/learn/courses/30/lessons/42576
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 * 문제의 지문을 이해하는 것에 시간이 오래 걸렸다. 번호들 중에 하나라도 다른 사람의 번호에서 시작하는 같은 경우가 있으면 false라는 말이다.
-	 * '번호에서 시작하는'을 이용하면 정렬로 해결할 수 있다.
+	 * '번호에서 시작하는'을 이용하면 정렬로 해결할 수 있다. 해시로 가공하는 것 대비 메모리를 절약할 수 있다.
 	 */
 	
     public boolean solution(String[] phone_book) {
