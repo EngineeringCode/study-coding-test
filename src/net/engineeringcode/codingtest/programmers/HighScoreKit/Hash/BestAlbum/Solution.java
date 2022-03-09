@@ -6,7 +6,8 @@ public class Solution {
 	 * 프로그래머스 > 코딩테스트 연습 > 해시 > 베스트앨범
 	 * https://programmers.co.kr/learn/courses/30/lessons/42579
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
-	 * 
+	 * 더 많이 재생된 장르부터 더 많이 재생된 노래를 2개씩 답안에 입력한다. 한 장르에 노래가 하나만 있는 경우도 있다.
+	 * 문제의 요구에 따라 장르와 노래정보를 가공하고 적절하게 정렬하는 것이 중요하다.
 	 */
 	
 	public int[] solution(String[] genres, int[] plays) {
@@ -25,8 +26,7 @@ public class Solution {
 			// 장르에 노래 정보 추가
 			if(musicHashMap.getOrDefault(genres[i], null) == null) {
 				musicHashMap.put(genres[i], new ArrayList<>());
-			}
-			
+			}			
 			ArrayList<Music> musicListSameGenre = musicHashMap.get(genres[i]);
 			musicListSameGenre.add(new Music(i, plays[i]));
 		}
