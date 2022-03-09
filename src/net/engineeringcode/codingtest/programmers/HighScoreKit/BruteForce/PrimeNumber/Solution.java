@@ -25,10 +25,10 @@ public class Solution {
 		boolean[] visited = new boolean[numberStringArray.length];
 		for(int r = 1; r <= numberStringArray.length; r++) {
 			permutation(numberStringArray, output, visited, 0, numberStringArray.length, r);
-		}
-		
+		}		
 		//System.out.println("combinationHashMap.size():"+combinationHashMap.size());
 		
+		// 생성된 순열 중에 소수가 몇개 있는지 확인한다.
 		for(Integer key: combinationHashMap.keySet()) {
 			//System.out.println("key:"+key);
 			if(isPrimeNumber(key)) {
