@@ -5,7 +5,7 @@ public class Solution {
 	 * 프로그래머스 > 코딩테스트 연습 > Summer/Winter Coding(~2018) > 소수 만들기
 	 * https://programmers.co.kr/learn/courses/30/lessons/12977
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
-	 * 입력의 개수와 자연수 범위가 작으므로 완전 탐색으로 빠르게 푸는 방법이 유리합니다.
+	 * 입력의 개수와 자연수 범위가 작으므로 완전 탐색으로 빠르게 답을 작성하는 것이 유리합니다.
 	 */
 
 	public int solution(int[] nums) {
