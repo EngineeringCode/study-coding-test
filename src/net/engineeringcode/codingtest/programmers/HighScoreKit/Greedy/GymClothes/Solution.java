@@ -6,12 +6,13 @@ public class Solution {
 	 * 프로그래머스 > 코딩테스트 연습 > 탐욕법(Greedy) > 체육복
 	 * https://programmers.co.kr/learn/courses/30/lessons/42862
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
-	 * 
+	 * 내용은 간단하나 조건이 다소 까다롭고 정확하게 밝히지 않은 조건 때문에 테스트 케이스를 통과하지 못 하는 경우가 있습니다.
 	 */
 	
 	public int solution(int n, int[] lost, int[] reserve) {
         int answer = n-lost.length;
         
+        // 앞번호의 학생에게 먼저 빌리도록 만들어야 프로그래머스 채점을 통과한다.
         Arrays.sort(lost);
         Arrays.sort(reserve);
         
