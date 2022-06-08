@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Solution {
 	/*
-	 * 프로그래머스 > 2022 카카오 블라인드 채용 > 양과 늑대
+	 * 프로그래머스 > 2022 카카오 블라인드 채용 > 신고 결과 받기
 	 * https://programmers.co.kr/learn/courses/30/lessons/92343
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 * 
