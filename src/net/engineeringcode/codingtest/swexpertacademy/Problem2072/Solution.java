@@ -1,4 +1,4 @@
-package net.engineeringcode.codingtest.swexpertacademy.problem2072;
+package net.engineeringcode.codingtest.swexpertacademy.Problem2072;
 import java.util.*;
 
 class Solution
