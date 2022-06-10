@@ -4,7 +4,8 @@ import java.util.*;
 public class Solution {
 	/*
 	 * 프로그래머스 > 코딩테스트 연습 > 탐욕법(Greedy) > 체육복
-	 * https://programmers.co.kr/learn/courses/30/lessons/42862
+	 * 문제 주소: https://programmers.co.kr/learn/courses/30/lessons/42862
+	 * 해설 주소: https://engineeringcode.tistory.com/237
 	 * 작성자: 공학코드(engineeringcode93@gmail.com)
 	 * 내용은 간단하나 조건이 다소 까다롭고 정확하게 밝히지 않은 조건 때문에 테스트 케이스를 통과하지 못 하는 경우가 있습니다.
 	 */
