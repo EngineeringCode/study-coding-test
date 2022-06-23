@@ -9,10 +9,6 @@ public class Solution {
 	 * 수의 위치(자리)이동은 불가능하다.
 	 */
 	
-	int[] numberArray;
-	boolean[] visited;		
-	int n;
-	
 	public String solution(String number, int k) {
 		StringBuilder stringBuilder = new StringBuilder();
 		int lastIndex = -1;
